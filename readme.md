@@ -223,3 +223,4 @@ auto_labeled_dataset/
 
 
 
+Демо-тест датасета [Проведение урока в 7 классе](https://huggingface.co/datasets/timbossm/ppi-mgpu-v01_25)
