@@ -1,0 +1,22 @@
+{
+  "name": "pedagogy-dataset-presentation",
+  "version": "1.0.0",
+  "description": "Интерактивная презентация о датасете педагогических паттернов",
+  "main": "index.html",
+  "scripts": {
+    "start": "serve"
+  },
+  "keywords": [
+    "pedagogy",
+    "dataset",
+    "presentation",
+    "html",
+    "css"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "serve": "^14.2.0"
+  }
+}
+
