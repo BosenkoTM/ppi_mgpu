@@ -961,7 +961,8 @@ Content-Type: application/json
 
 ## 👥 Контакты
 
-- GitHub: https://github.com/BosenkoTM/ppi_mgpu
+- GitHub: [Описание проекта](https://bosenkotm.github.io/ppi_mgpu/)
 - Hugging Face: https://huggingface.co/datasets/timbossm/ppi-mgpu-v01_25
+
 
 
