@@ -723,8 +723,8 @@ python3 app.py
 Учетные данные хранятся в `users.json`. См. `users.md` для полного списка.
 
 **Примеры учетных данных:**
-- Администратор: `admin_1` / `Adm_#Ppi_2o24!`
-- DL-user: `dl_user_01` / `ppi_user_pass01`
+- Администратор: 
+- DL-user: dl_user_01` / `ppi_user_pass01`
 
 ---
 
@@ -747,8 +747,8 @@ python3 app.py
 **Запрос:**
 ```json
 {
-  "username": "admin_1",
-  "password": "Adm_#Ppi_2o24!"
+  "username": "",
+  "password": ""
 }
 ```
 
@@ -963,3 +963,4 @@ Content-Type: application/json
 
 - GitHub: https://github.com/BosenkoTM/ppi_mgpu
 - Hugging Face: https://huggingface.co/datasets/timbossm/ppi-mgpu-v01_25
+
