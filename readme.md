@@ -12,17 +12,17 @@
 
 ```mermaid
 graph TD
-    subgraph Этап 1: Подготовка
-        A[Загрузка видео] --> B{Облачное хранилище MinIO};
+    subgraph Этап 1. Подготовка
+        A[Загрузка видео] --> B{ Облачное хранилище MinIO};
     end
 
-    subgraph Этап 2: Разметка и обработка
+    subgraph Этап 2. Разметка и обработка
         B --> C[Разметка в Label Studio];
         C --> D[Получение JSON-файла разметки];
         B & D --> E[Формирование мультимодального датасета];
     end
 
-    subgraph Этап 3: Публикация
+    subgraph Этап 3. Публикация
         E --> F[Готовый датасет];
         F --> G[Публикация в Hugging Face Hub];
     end
@@ -222,3 +222,4 @@ gunicorn -w 4 -b 0.0.0.0:5000 app:app
 -   **GitHub:** [Описание проекта](https://bosenkotm.github.io/ppi_mgpu/)
 -   **Hugging Face:** [Пример датасета](https://huggingface.co/datasets/timbossm/ppi-mgpu-v01_25)
 -   **Label Studio:** [Руководство по разметке для проекта](labelling_lstudio.md)
+
