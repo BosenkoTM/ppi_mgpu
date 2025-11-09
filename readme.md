@@ -1,5 +1,3 @@
-### **Скорректированный `README.md`**
-
 # **PPI Video Processing Platform**
 
 **Pedagogical Pattern Infrastructure (PPI)** — это комплексная веб-платформа, предназначенная для анализа видеозаписей учебных процессов. Она позволяет исследователям и разработчикам проходить полный цикл от сырого видео до готового, структурированного датасета для обучения моделей машинного обучения.
@@ -248,3 +246,4 @@ gunicorn -w 4 -b 0.0.0.0:5000 app:app
 -   **GitHub:** [Описание проекта](https://bosenkotm.github.io/ppi_mgpu/)
 -   **Hugging Face:** [Пример датасета](https://huggingface.co/datasets/timbossm/ppi-mgpu-v01_25)
 -   **Label Studio:** [Руководство по разметке для проекта](labelling_lstudio.md)
+
