@@ -23,7 +23,7 @@ graph TD
     end
 
     subgraph Этап 3. Публикация
-        E --> F[Готовый датасет];
+        E --> F[Дватасет-эталон];
         F --> G[Публикация в Hugging Face Hub];
     end
 
@@ -951,6 +951,7 @@ Content-Type: application/json
     -   [Процесс формирования датасета (Benchmark)](docs/benchmarks_creating.md)
 
 ---
+
 
 
 
