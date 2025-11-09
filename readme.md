@@ -959,10 +959,11 @@ Content-Type: application/json
 
 ---
 
-## 👥 Контакты
+## 👥 Материалы 
 
 - GitHub: [Описание проекта](https://bosenkotm.github.io/ppi_mgpu/)
-- Hugging Face: https://huggingface.co/datasets/timbossm/ppi-mgpu-v01_25
+- Hugging Face: [Шаблон датасета педагогических паттернов](https://huggingface.co/datasets/timbossm/ppi-mgpu-v01_25)
+
 
 
 
