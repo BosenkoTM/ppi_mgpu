@@ -83,11 +83,11 @@ graph TD
         C["Описания .xlsx"]
     end
 
-    subgraph "Шаг 1: Извлечение (main.py)"
+    subgraph "Шаг 1: main"
         D["Извлечение ключевых кадров"]
     end
 
-    subgraph "Шаг 2: Сборка и фильтрация (prepare_dataset.py)"
+    subgraph "Шаг 2: prepare_dataset"
         F["Извлечение аудио и транскрибация"]
         G{"Интерактивная фильтрация"}
         H["Сборка метаданных CSV"]
@@ -537,5 +537,6 @@ frame = source_video.get_frame(mid_time)
     -   [Установка и настройка хранилища MinIO](docs/admin_minio.md)
     -   [Руководство по разметке в Label Studio](docs/labelling_lstudio.md)
     -   [Процесс формирования датасета (Benchmark)](docs/benchmarks_creating.md)
+
 
 
