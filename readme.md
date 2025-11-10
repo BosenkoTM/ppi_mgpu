@@ -126,17 +126,17 @@ graph TD
 ```mermaid
 graph TD
     subgraph "Входные данные"
-        A[Папка huggingface_dataset]
-        B[Hugging Face Token]
+        A["Папка huggingface_dataset"]
+        B["Hugging Face Token"]
     end
     
     subgraph "Процесс загрузки (upload_to_hf.py)"
-        C[Аутентификация в HF Hub] --> D[Создание Dataset Card (README.md)]
-        D --> E[Загрузка файлов и метаданных]
+        C["Аутентификация в HF Hub"] --> D["Создание Dataset Card (README.md)"]
+        D --> E["Загрузка файлов и метаданных"]
     end
     
     subgraph "Результат"
-        F[Опубликованный датасет на Hugging Face Hub]
+        F["Опубликованный датасет на Hugging Face Hub"]
     end
     
     A & B --> C
@@ -537,6 +537,7 @@ frame = source_video.get_frame(mid_time)
     -   [Установка и настройка хранилища MinIO](docs/admin_minio.md)
     -   [Руководство по разметке в Label Studio](docs/labelling_lstudio.md)
     -   [Процесс формирования датасета (Benchmark)](docs/benchmarks_creating.md)
+
 
 
 
