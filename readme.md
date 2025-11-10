@@ -144,7 +144,7 @@ graph TD
 ```
 
 **Пример готового датасета:**
-*   [timbossm/ppi-mgpu-v01_25](https://huggingface.co/datasets/timbossm/ppi-mgpu-v01_25)
+*   [ppi](https://huggingface.co/datasets/icomgpu/ppi)
 
 ---
 
@@ -537,6 +537,7 @@ frame = source_video.get_frame(mid_time)
     -   [Установка и настройка хранилища MinIO](docs/admin_minio.md)
     -   [Руководство по разметке в Label Studio](docs/labelling_lstudio.md)
     -   [Процесс формирования датасета (Benchmark)](docs/benchmarks_creating.md)
+
 
 
 
