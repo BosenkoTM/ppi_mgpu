@@ -88,13 +88,13 @@ graph TD
     end
 
     subgraph "Шаг 2: prepare_dataset"
-        F["Извлечение аудио и транскрибация"]
+        F["аудио и транскрибация"]
         G{"Интерактивная фильтрация"}
         H["Сборка метаданных CSV"]
     end
     
     subgraph "Выход"
-        I["huggingface dataset)"]
+        I["huggingface dataset"]
     end
 
     A & B --> D
@@ -537,6 +537,7 @@ frame = source_video.get_frame(mid_time)
     -   [Установка и настройка хранилища MinIO](docs/admin_minio.md)
     -   [Руководство по разметке в Label Studio](docs/labelling_lstudio.md)
     -   [Процесс формирования датасета (Benchmark)](docs/benchmarks_creating.md)
+
 
 
 
