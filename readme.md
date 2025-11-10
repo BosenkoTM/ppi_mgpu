@@ -136,7 +136,7 @@ graph TD
     end
     
     subgraph "Результат"
-        F["Опубликованный датасет на Hugging Face Hub"]
+        F["датасет на Hugging Face Hub"]
     end
     
     A & B --> C
@@ -232,6 +232,7 @@ graph TD
     -   [Установка и настройка хранилища MinIO](docs/admin_minio.md)
     -   [Руководство по разметке в Label Studio](docs/labelling_lstudio.md)
     -   [Процесс формирования датасета (Benchmark)](docs/benchmarks_creating.md)
+
 
 
 
