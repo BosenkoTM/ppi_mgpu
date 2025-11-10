@@ -944,13 +944,14 @@ Content-Type: application/json
 ## **👥 Материалы и ссылки**
 
 -   **GitHub:** [Описание проекта](https://bosenkotm.github.io/ppi_mgpu/)
--   **Hugging Face:** [Пример датасета](https://huggingface.co/datasets/timbossm/ppi-mgpu-v01_25)
+-   **Hugging Face:** [Пример датасета](https://huggingface.co/datasets/icomgpu/ppi)
 -   **Документация по процессам:**
     -   [Установка и настройка хранилища MinIO](docs/admin_minio.md)
     -   [Руководство по разметке в Label Studio](docs/labelling_lstudio.md)
     -   [Процесс формирования датасета (Benchmark)](docs/benchmarks_creating.md)
 
 ---
+
 
 
 
