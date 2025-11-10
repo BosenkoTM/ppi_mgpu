@@ -84,7 +84,7 @@ graph TD
     end
 
     subgraph "Шаг 1: Извлечение (main.py)"
-        D["Извлечение видео-фрагментов и ключевых кадров"]
+        D["Извлечение ключевых кадров"]
     end
 
     subgraph "Шаг 2: Сборка и фильтрация (prepare_dataset.py)"
@@ -94,7 +94,7 @@ graph TD
     end
     
     subgraph "Выход"
-        I["Готовый датасет (папка huggingface_dataset)"]
+        I["huggingface dataset)"]
     end
 
     A & B --> D
@@ -537,4 +537,5 @@ frame = source_video.get_frame(mid_time)
     -   [Установка и настройка хранилища MinIO](docs/admin_minio.md)
     -   [Руководство по разметке в Label Studio](docs/labelling_lstudio.md)
     -   [Процесс формирования датасета (Benchmark)](docs/benchmarks_creating.md)
+
 
