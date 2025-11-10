@@ -78,31 +78,31 @@ graph TD
 ```mermaid
 graph TD
     subgraph "Входные данные"
-        A[Видео .mp4]
-        B[Разметка .json]
-        C[Описания .xlsx]
+        A["Видео .mp4"]
+        B["Разметка .json"]
+        C["Описания .xlsx"]
     end
 
     subgraph "Шаг 1: Извлечение (main.py)"
-        D[Извлечение видео-фрагментов и ключевых кадров]
+        D["Извлечение видео-фрагментов и ключевых кадров"]
     end
 
     subgraph "Шаг 2: Сборка и фильтрация (prepare_dataset.py)"
-        F[Извлечение аудио и транскрибация]
-        G{Интерактивная фильтрация}
-        H[Сборка метаданных CSV]
+        F["Извлечение аудио и транскрибация"]
+        G{"Интерактивная фильтрация"}
+        H["Сборка метаданных CSV"]
     end
     
     subgraph "Выход"
-        I[Готовый датасет (папка huggingface_dataset)]
+        I["Готовый датасет (папка huggingface_dataset)"]
     end
 
-    A & B --> D;
-    D --> F;
-    C --> H;
-    F --> G;
-    G -- "Отфильтрованные данные" --> H;
-    H --> I;
+    A & B --> D
+    D --> F
+    C --> H
+    F --> G
+    G -- "Отфильтрованные данные" --> H
+    H --> I
 
     style G fill:#f8bbd0,stroke:#c2185b,stroke-width:2px,stroke-dasharray: 5 5
 ```
@@ -537,3 +537,4 @@ frame = source_video.get_frame(mid_time)
     -   [Установка и настройка хранилища MinIO](docs/admin_minio.md)
     -   [Руководство по разметке в Label Studio](docs/labelling_lstudio.md)
     -   [Процесс формирования датасета (Benchmark)](docs/benchmarks_creating.md)
+
