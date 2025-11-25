@@ -55,8 +55,13 @@ graph TD
 **Цель.** Сначала вручную разметить видео, выделив педагогические паттерны, а затем на основе этой разметки автоматически сгенерировать структурированный, отфильтрованный и обогащенный мультимодальный датасет.
 
 #### **2.1. Разметка видео в Label Studio**
+<img src="https://user-images.githubusercontent.com/12534576/192582340-4c9e4401-1fe6-4dbb-95bb-fdbba5493f61.png"/>
 
-[Label Studio](https://github.com/HumanSignal/label-studio?tab=readme-ov-file#citation)
+![GitHub](https://img.shields.io/github/license/heartexlabs/label-studio?logo=heartex) ![label-studio:build](https://github.com/HumanSignal/label-studio/workflows/label-studio:build/badge.svg) ![GitHub release](https://img.shields.io/github/v/release/heartexlabs/label-studio?include_prereleases)
+
+[Website](https://labelstud.io/) • [Docs](https://labelstud.io/guide/) • [Join Slack Community <img src="https://app.heartex.ai/docs/images/slack-mini.png" width="18px"/>](https://slack.labelstud.io/?source=github-1)
+
+
 
 **Процесс:**
 *   Система предоставляет временную защищенную ссылку (presigned URL) на загруженное видео.
@@ -234,6 +239,7 @@ graph TD
     -   [Установка и настройка хранилища MinIO](docs/admin_minio.md)
     -   [Руководство по разметке в Label Studio](docs/labelling_lstudio.md)
     -   [Процесс формирования датасета (Benchmark)](docs/benchmarks_creating.md)
+
 
 
 
