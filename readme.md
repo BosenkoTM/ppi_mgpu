@@ -56,6 +56,8 @@ graph TD
 
 #### **2.1. Разметка видео в Label Studio**
 
+[Label Studio](https://github.com/HumanSignal/label-studio?tab=readme-ov-file#citation)
+
 **Процесс:**
 *   Система предоставляет временную защищенную ссылку (presigned URL) на загруженное видео.
 *   Пользователь импортирует видео по этой ссылке в **Label Studio** и, следуя **[руководству по разметке](docs/labelling_lstudio.md)**, аннотирует временные интервалы, соответствующие различным педагогическим паттернам.
@@ -232,6 +234,7 @@ graph TD
     -   [Установка и настройка хранилища MinIO](docs/admin_minio.md)
     -   [Руководство по разметке в Label Studio](docs/labelling_lstudio.md)
     -   [Процесс формирования датасета (Benchmark)](docs/benchmarks_creating.md)
+
 
 
 
