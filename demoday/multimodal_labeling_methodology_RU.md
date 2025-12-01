@@ -152,4 +152,4 @@
 ---
 
 *Документ подготовлен для Russian-Chinese Center for Artificial Intelligence in Education*  
-*МГПУ × CCNU, 2024*
+*МГПУ × CCNU, 2025*
