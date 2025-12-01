@@ -1,7 +1,7 @@
 # Methodology of Multimodal Video Data Labeling
 
 **Practical Session: Data Labeling**  
-**Date:** December 9, 2024  
+**Date:** December 9, 2025 
 **Organizers:** Russian-Chinese Center for Artificial Intelligence in Education  
 **Partners:** MGPU (Moscow City University) × CCNU (Central China Normal University)
 
@@ -27,9 +27,18 @@
 
 **Number of Experts from CCNU:** 3 (three) specialists
 
+All three experts will conduct independent annotation of the same video to ensure data reliability and consistency.
+
 **Labeling Platform:** Label Studio
 
-All three experts will conduct independent annotation of the same video to ensure data reliability and consistency.
+<img src="https://user-images.githubusercontent.com/12534576/192582340-4c9e4401-1fe6-4dbb-95bb-fdbba5493f61.png"/>
+
+![GitHub](https://img.shields.io/github/license/heartexlabs/label-studio?logo=heartex) ![label-studio:build](https://github.com/HumanSignal/label-studio/workflows/label-studio:build/badge.svg) ![GitHub release](https://img.shields.io/github/v/release/heartexlabs/label-studio?include_prereleases)
+
+[Website](https://labelstud.io/) • [Docs](https://labelstud.io/guide/) • [Join Slack Community <img src="https://app.heartex.ai/docs/images/slack-mini.png" width="18px"/>](https://slack.labelstud.io/?source=github-1)
+
+
+
 
 ---
 
@@ -43,7 +52,7 @@ The video will be annotated across three parallel dimensions:
 
 ---
 
-## 📊 Template 1: Audio Labeling (Pedagogical Speech Acts)
+## 📊 Template 1. Audio Labeling (Pedagogical Speech Acts)
 
 ### Description
 Annotation is performed based on the audio track with visual reference to the video. The main task is to identify pedagogical speech acts on the timeline.
@@ -66,7 +75,7 @@ Annotation is performed based on the audio track with visual reference to the vi
 
 ---
 
-## 📊 Template 2: Video Labeling — Communicative Modalities
+## 📊 Template 2. Video Labeling — Communicative Modalities
 
 ### Description
 Annotation of visual communication components with temporal intervals and spatial positioning (via rectangles).
@@ -90,7 +99,7 @@ Annotation of visual communication components with temporal intervals and spatia
 
 ---
 
-## 📊 Template 3: Video Labeling — Pedagogical Actions
+## 📊 Template 3. Video Labeling — Pedagogical Actions
 
 ### Description
 Annotation of specific pedagogical practices and methodological techniques used in the learning process.
@@ -152,4 +161,4 @@ If you have any questions regarding the annotation methodology, please contact t
 ---
 
 *Document prepared for Russian-Chinese Center for Artificial Intelligence in Education*  
-*MGPU × CCNU, 2024*
+*MGPU × CCNU, 2025*
