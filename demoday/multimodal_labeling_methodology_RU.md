@@ -1,7 +1,7 @@
 # Методология мультимодальной разметки видеоданных
 
 **Практическая сессия: Data Labeling**  
-**Дата:** 9 декабря 2024  
+**Дата:** 9 декабря 2025 
 **Организаторы:** Russian-Chinese Center for Artificial Intelligence in Education  
 **Партнеры:** МГПУ (Московский городской педагогический университет) × CCNU (Central China Normal University)
 
