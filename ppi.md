@@ -116,57 +116,6 @@
 
 ## Структура проекта
 
-```
-/home/ppi/Downloads/ppi_25/  (или E:\MGPU\ppi_fimal\ppi_25\)
-├── ppi/                          # Flask веб-приложение
-│   ├── app.py                    # Основной файл приложения (API эндпоинты)
-│   ├── run.py                    # Точка входа для запуска
-│   ├── run_app.sh                # Скрипт запуска с venv (Linux)
-│   ├── start_app.ps1             # Скрипт запуска (Windows)
-│   ├── fix_requirements.sh       # Скрипт установки зависимостей
-│   ├── requirements.txt          # Python зависимости
-│   ├── processed_results/        # Результаты обработки (датасеты)
-│   │   └── [task_id]/            # Папки проектов
-│   │       ├── annotations/      # JSON аннотации
-│   │       ├── frames/           # Извлеченные кадры
-│   │       ├── segments/         # Нарезанные сегменты видео
-│   │       ├── transcriptions/   # Транскрипции
-│   │       ├── iaa_stats.json    # Статистика IAA (только для экспертного режима)
-│   │       ├── dataset.csv       # CSV с метаданными
-│   │       ├── dataset.zip       # Архив датасета
-│   │       └── README.md         # Описание датасета
-│   ├── templates/
-│   │   ├── index.html            # Главная страница
-│   │   ├── analytics.html        # Дашборд аналитики (стандартный режим)
-│   │   ├── analytics_expert.html # Дашборд аналитики (экспертный режим)
-│   │   └── chat_standalone.html  # Полноэкранный чат AI ассистента
-│   ├── static/
-│   │   ├── css/
-│   │   │   └── styles.css        # Стили интерфейса
-│   │   ├── js/
-│   │   │   └── main.js           # Frontend логика
-│   │   └── images/               # Логотипы и изображения
-│   └── video_dataset_desktop/    # Модули обработки
-│       ├── pipeline.py           # Основной конвейер обработки
-│       ├── settings.py           # Настройки по умолчанию
-│       ├── transcription_fast.py  # Транскрибация (Faster-Whisper)
-│       ├── services/
-│       │   ├── cloud.py          # Интеграция с MinIO/S3
-│       │   ├── dataset.py        # Сборка датасета
-│       │   ├── huggingface.py    # Публикация в Hugging Face
-│       │   ├── media.py          # Обработка видео/изображений
-│       │   └── iaa.py            # Модуль межэкспертного согласования
-│       └── utils/
-│           ├── files.py          # Утилиты для файлов
-│           └── validation.py     # Валидация данных
-├── venv/                         # Python виртуальное окружение
-├── minio/                        # Данные MinIO (объектное хранилище)
-├── label_studio/                 # Рабочая директория Label Studio
-├── setup_env.sh                  # Скрипт установки базового окружения (Linux)
-├── setup_ls_app.sh               # Скрипт установки Label Studio (Linux)
-├── readme_service_ppi.md        # Техническая документация по установке
-└── ppi.md                        # Этот файл (общая документация)
-```
 
 ## Архитектура системы
 
